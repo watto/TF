@@ -16,7 +16,7 @@ provider "azurerm" {
 # Create Resource Group
 resource "azurerm_resource_group" "main" {
   name     = "test-RG-20250814"
-  location = "East US 2"
+  location = "East"
 
   tags = {
     dept  = "SYSOPS"
